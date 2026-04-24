@@ -1,0 +1,25 @@
+# Окружение и секреты
+.env
+*.env
+secrets.json
+
+# Python мусор
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Результаты работы парсера (по желанию)
+*.xlsx
+*.csv
+seen.json
