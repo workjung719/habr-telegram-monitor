@@ -2,7 +2,7 @@ name: Habr Monitor
 
 on:
   schedule:
-    - cron: '0 * * * *'      # каждый час в 00 минут UTC
+    - cron: '17 * * * *'      # каждый час в 17 минут UTC
   workflow_dispatch:          # позволяет запускать вручную с GitHub UI
 
 permissions:
